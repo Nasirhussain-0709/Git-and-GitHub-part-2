@@ -1,0 +1,55 @@
+					Git and GitHub part-2
+
+Q.1 :- How to check if git is available in your system?
+
+Ans :- To check git is available in your system or not open git bash and then type git--version.
+
+Q.2 :- How to initialize a new Git repository?
+
+Ans :- To set up a new Git repository
+	Open the git bash
+	by using the cd command change the directory
+	type git init command
+	add your files by using git add . command
+	then commit the file with a suitable message
+
+Q.3 :- How to tell git about your name and email?
+
+Ans :- To tell about my user name and email in Git
+	Open git bash
+	git config--global user.name"FIRST_NAME LAST_NAME"
+	git config--global user.email"email id"
+	git config--list
+
+Q.4 :- How to add a file to the staging area?
+
+Ans :- To add a file to the staging area
+	Open the terminal git bash
+	by using the command cd locate the file we want to add
+	by using the git add . command to add all the untracked file into staging area
+				or
+	for specific file use git add file name
+
+Q.5 :- How to remove a file from the staging area?
+
+Ans :- To remove a file from the staging area
+	Open the terminal git bash
+	by using the command git rm--cached file name
+	enter
+
+Q.6 :- How to make a commit?
+
+Ans :- To make a commit we use git commit-m"suitable message"
+
+Q.7 :- How to send your changes to a remote repository?
+
+Ans :- To send the changes from local repository to remote repository
+	git branch -M main
+	git remote(add origin URL)
+	git push -u origin main
+
+Q.8 :- what is the difference between clone and pull?
+
+Ans :- Git clone copies all files to the local machine, while git pull only copies the modified files to the local machine.
+
+
